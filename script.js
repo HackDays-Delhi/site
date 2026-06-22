@@ -35,6 +35,11 @@ prizes.forEach((prize) => {
 });
 
 where.onclick = () => {
+    prize2.classList.remove("rightr");
+    prize3.classList.remove("rightr");
+    prize1.classList.remove("rig1r");
+    prize4.classList.remove("rig1r");
+    
     prize2.classList.add("right");
     prize3.classList.add("right");
     prize1.classList.add("rig1");
@@ -48,7 +53,12 @@ prizee.onclick = () => {
     prize3.classList.add("rightr");
     prize1.classList.add("rig1r");
     prize4.classList.add("rig1r");
-    indiagate.classList.add("aniir");
+    indiagate.classList.remove("aniir");
+    prize2.classList.remove("right");
+    prize3.classList.remove("right");
+    prize1.classList.remove("rig1");
+    prize4.classList.remove("rig1");
+    indiagate.classList.remove("anii");
 }
 
 
