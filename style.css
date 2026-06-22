@@ -105,3 +105,28 @@ body {
     top: 75vh;
     right: 400px;
 }
+#prizee {
+    position: fixed;
+    left: 10%;
+    bottom: 10%
+}
+
+#where {
+    position: fixed;
+    left: calc(10% + 70px);
+    bottom: 10%
+}
+
+#when {
+    position: fixed;
+    left: calc(10% + 140px);
+    bottom: 10%
+}
+
+button {
+    padding: 10px;
+    border-radius: 20px;
+    width: 80px;
+    background-color: skyblue;
+    border: 1px solid rgb(255, 255, 255);
+}
