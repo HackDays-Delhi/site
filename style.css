@@ -1,0 +1,13 @@
+#logo {
+    width:400px;
+    position:fixed;
+    top: 300px;
+    left: 300px;
+}
+#mlh-trust-badge {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100px;
+    
+}
