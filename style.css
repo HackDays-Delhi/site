@@ -75,3 +75,17 @@ body {
         transform: translateY(0);
     }
 }
+
+.prize {
+    position: absolute;
+    width: 170px;
+    top: 2px;
+    left: 30px;
+    display: inline-block;
+    user-select: none;
+    cursor: grab;
+}
+
+.prize:active {
+    cursor: grabbing;
+}
