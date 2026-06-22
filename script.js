@@ -43,11 +43,10 @@ where.onclick = () => {
 
 }
 
-prizes.onclick = () => {
-    prize2.classList.re("rightr");
+prizee.onclick = () => {
+    prize2.classList.add("rightr");
     prize3.classList.add("rightr");
     prize1.classList.add("rig1r");
     prize4.classList.add("rig1r");
-    indiagate.classList.add("anii");
-
+    indiagate.classList.add("aniir");
 }

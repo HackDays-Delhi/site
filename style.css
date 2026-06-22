@@ -238,6 +238,24 @@ button:hover {
     }
 }
 
+@keyframes aniir {
+    0% {
+        position: fixed;
+        right: 20vw;
+        top: 23vh;
+    }
+    100% {
+        position: fixed;
+        right: -20vw;
+        top: 23vh;
+    }
+}
+
+
 .anii {
     animation: anii 1s forwards;
+}
+
+.aniir {
+    animation: aniir 1s forwards;
 }
