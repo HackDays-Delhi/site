@@ -281,3 +281,25 @@ button:hover {
         left: 0;   
     }
 }
+
+@keyframes newwaveani {
+    0% {
+        position: fixed;
+        top: 0;
+        left: 0;    
+    }
+    50% {
+        position: fixed;
+        top: -20vh;
+        left: -20vw;    
+    }
+    100% {
+        position: fixed;
+        top: 0;
+        left: 0; 
+    }
+}
+
+.wavenew {
+    animation: newwaveani 2s;
+}

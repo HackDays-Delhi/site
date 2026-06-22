@@ -2,6 +2,7 @@ const prizes = document.querySelectorAll(".prize");
 const where = document.getElementById("where");
 const prize2 = document.getElementById("prize2");
 const indiagate = document.getElementById("indiagate");
+const wave = document.getElementById("wave")
 
 prizes.forEach((prize) => {
     let offsetX = 0;
@@ -35,6 +36,7 @@ prizes.forEach((prize) => {
 });
 
 where.onclick = () => {
+    wave.classList.remove("wavenew")
     prize2.classList.remove("rightr");
     prize3.classList.remove("rightr");
     prize1.classList.remove("rig1r");
@@ -45,10 +47,12 @@ where.onclick = () => {
     prize1.classList.add("rig1");
     prize4.classList.add("rig1");
     indiagate.classList.add("anii");
+    wave.classList.add("wavenew")
 
 }
 
 prizee.onclick = () => {
+    wave.classList.remove("wavenew")
     prize2.classList.add("rightr");
     prize3.classList.add("rightr");
     prize1.classList.add("rig1r");
@@ -59,6 +63,7 @@ prizee.onclick = () => {
     prize1.classList.remove("rig1");
     prize4.classList.remove("rig1");
     indiagate.classList.remove("anii");
+    wave.classList.add("wavenew")
 }
 
 
