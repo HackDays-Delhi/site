@@ -2,20 +2,29 @@
     position: relative;
 }
 #logo {
-    width:35%;
-    position:fixed;
-    top: 45vh;
-    transform: translateY(-50%);
-    left: 15vw;
+    width:490px;
 }
 #mlh-trust-badge {
     position: fixed;
     top: 0;
     right: 7px;
-    width: 6vw;
+    width: 80px;
+    display: inline-block;
     
 }
 
 body {
-    background-image: url("https://cdn.hackclub.com/019eee81-3daa-7fae-953c-4ec090a4a0e8/Untitled%20design%20(35).png");
+    background-image: url("https://cdn.hackclub.com/019eee8a-e443-77d2-8e6f-483c98341293/Untitled%20design%20(37).png");
+}
+
+#rocket {
+    width: 70px;
+    rotate: 27deg;
+}
+
+.imagecont {
+    position:fixed;
+    top: 45vh;
+    transform: translateY(-50%);
+    left: 15vw;
 }
