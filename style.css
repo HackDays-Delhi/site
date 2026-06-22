@@ -185,7 +185,7 @@ button {
         transform: translateX(-50vh) translateY(50vw);
     }
     100% {
-        transform: translateX(0) translateY(0);
+        transform: translateX(30%) translateY(0);
     }
 }
 
