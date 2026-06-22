@@ -150,18 +150,31 @@ button {
 @keyframes rig {
     from {
         position: fixed;
-        left: -220px;
+        left: 70vw;
     }
     to {
         position: fixed;
-        left: 100px;
+        left: 85vw;
     }
 }
 
 .right {
-    animation: rig 2s forwards;
+    animation: rig 1s forwards;
+}
+
+.rig1 {
+    animation: rig1 1s forwards;
 }
 
 
-
+@keyframes rig1 {
+    from {
+        position: fixed;
+        left: 60vw;
+    }
+    to {
+        position: fixed;
+        left: 70vw;
+    }
+}
 

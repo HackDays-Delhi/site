@@ -36,4 +36,6 @@ prizes.forEach((prize) => {
 prizee.onclick = () => {
     prize2.classList.add("right");
     prize3.classList.add("right");
+    prize1.classList.add("rig1");
+    prize4.classList.add("rig1");
 }
