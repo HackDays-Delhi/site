@@ -79,8 +79,6 @@ body {
 .prize {
     position: absolute;
     width: 170px;
-    top: 2px;
-    left: 30px;
     display: inline-block;
     user-select: none;
     touch-action: none;
@@ -89,4 +87,21 @@ body {
 
 .prize:active {
     cursor: grabbing;
+}
+
+#prize1 {
+    top: 2px;
+    right: 400px;
+}
+#prize2 {
+    top: 24vh;
+    right: 220px;
+}
+#prize3 {
+    top: 50vh;
+    right: 400px;
+}
+#prize4 {
+    top: 75vh;
+    right: 220px;
 }
