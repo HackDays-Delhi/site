@@ -19,7 +19,7 @@ function countdown() {
     const mins = Math.floor(min);
     const sec = (min - mins) * 60;
     const secs = Math.floor(sec);
-    time1.textContent=`${days}d ${hours}h ${mins}m ${secs}s`;
+    time1.textContent=`${days}d  ${hours}h  ${mins}m  ${secs}s`;
 }
 setInterval(countdown,1000);
 where.onclick = () => {

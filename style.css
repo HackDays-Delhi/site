@@ -255,13 +255,28 @@ button:hover {
 }
 #time1{
     position: fixed;
-    right: calc(-25vw + 110px);
-    top: calc(23vh + 100px);
+    right: calc(-25vw + 140px);
+    top: calc(23vh + 160px);
+    transform: translateX(50%);
     
     transition: 1s;
 }
 
 #time1.show {
-    right: calc(20vw + 110px);
-    top: calc(23vh + 100px);
+    right: calc(20vw + 140px);
+    top: calc(23vh + 160px);
 }
+        @font-face {
+        font-family: safiro;
+        src: url(assets/digital-7.ttf)format("truetype");
+        font-display: swap
+    }
+
+    H2 {
+        font-family: safiro,safiro Fallback;
+        user-select: none;
+        font-weight: 1;
+        margin-bottom: 0;
+        font-weight: 700;
+
+    }
