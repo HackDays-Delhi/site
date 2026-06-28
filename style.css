@@ -253,3 +253,14 @@ button:hover {
 #timel.show {
     right: 20vw;
 }
+
+#time1{
+    position: fixed;
+    right: -25vw;
+    top: 23vh;
+    transition: 1s;
+}
+
+#time1.show {
+    right: 20vw;
+}

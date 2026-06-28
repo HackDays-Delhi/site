@@ -4,8 +4,9 @@ const prize2 = document.getElementById("prize2");
 const prize3 = document.getElementById("prize3");
 const prize4 = document.getElementById("prize4");
 const indiagate = document.getElementById("indiagate");
-const wave = document.getElementById("wave")
-const when = document.getElementById("when")
+const wave = document.getElementById("wave");
+const when = document.getElementById("when");
+const time1 = document.getElementById("time1");
 
 where.onclick = () => {
     wave.classList.remove("wavenew")
@@ -16,6 +17,7 @@ where.onclick = () => {
     prize4.classList.add("rig1");
     wave.classList.add("wavenew");
     timel.classList.remove("show");
+    time1.classList.remove("show")
 
 }
 
@@ -28,6 +30,7 @@ prizee.onclick = () => {
     prize4.classList.remove("rig1");
     wave.classList.add("wavenew");
     timel.classList.remove("show");
+    time1.classList.remove("show")
 }
 
 when.onclick = () => {
@@ -39,6 +42,7 @@ when.onclick = () => {
     prize1.classList.add("rig1");
     prize4.classList.add("rig1");
     wave.classList.add("wavenew")
+    time1.classList.add("show")
     
 }
 
