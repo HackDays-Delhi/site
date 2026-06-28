@@ -7,10 +7,17 @@ const indiagate = document.getElementById("indiagate");
 const wave = document.getElementById("wave");
 const when = document.getElementById("when");
 const time1 = document.getElementById("time1");
+const now = new Date();
+const event = new Date("2026-07-25T09:00:00");
+const diff = event - now;
+const day = diff / (1000 * 60 * 60 * 24);
+const days = Math.floor(day);
+const hour = (day - days) * 24
+const hours = Math.floor(hour)
 
 where.onclick = () => {
-    wave.classList.remove("wavenew")
-    indiagate.classList.add("add")
+    wave.classList.remove("wavenew");
+    indiagate.classList.add("add");
     prize2.classList.add("right");
     prize3.classList.add("right");
     prize1.classList.add("rig1");
@@ -22,8 +29,8 @@ where.onclick = () => {
 }
 
 prizee.onclick = () => {
-    wave.classList.remove("wavenew")
-    indiagate.classList.remove("add")
+    wave.classList.remove("wavenew");
+    indiagate.classList.remove("add");
     prize2.classList.remove("right");
     prize3.classList.remove("right");
     prize1.classList.remove("rig1");
@@ -34,15 +41,15 @@ prizee.onclick = () => {
 }
 
 when.onclick = () => {
-    wave.classList.remove("wavenew")
+    wave.classList.remove("wavenew");
     indiagate.classList.remove("add");
     timel.classList.add("show");
     prize2.classList.add("right");
     prize3.classList.add("right");
     prize1.classList.add("rig1");
     prize4.classList.add("rig1");
-    wave.classList.add("wavenew")
-    time1.classList.add("show")
+    wave.classList.add("wavenew");
+    time1.classList.add("show");
     
 }
 
