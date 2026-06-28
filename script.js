@@ -31,7 +31,8 @@ where.onclick = () => {
     prize4.classList.add("rig1");
     wave.classList.add("wavenew");
     timel.classList.remove("show");
-    time1.classList.remove("show")
+    time1.classList.remove("show");
+    when1.classList.remove("show");
 
 }
 
@@ -44,8 +45,10 @@ prizee.onclick = () => {
     prize4.classList.remove("rig1");
     wave.classList.add("wavenew");
     timel.classList.remove("show");
-    time1.classList.remove("show")
-}
+    time1.classList.remove("show");
+    when1.classList.remove("show");
+    }
+
 
 when.onclick = () => {
     wave.classList.remove("wavenew");
@@ -57,6 +60,7 @@ when.onclick = () => {
     prize4.classList.add("rig1");
     wave.classList.add("wavenew");
     time1.classList.add("show");
+    when1.classList.add("show");
     
 }
 

@@ -268,15 +268,44 @@ button:hover {
 }
         @font-face {
         font-family: safiro;
-        src: url(assets/digital-7.ttf)format("truetype");
+        src: url(assets/safiro-medium-webfont.ttf)format("truetype");
         font-display: swap
     }
 
-    H2 {
+    p {
         font-family: safiro,safiro Fallback;
         user-select: none;
-        font-weight: 1;
+       font-size: 25px;
         margin-bottom: 0;
-        font-weight: 700;
-
+        color: black;
+       
     }
+    @font-face {
+        font-family: safiro1;
+        src: url(assets/safiro-medium-webfont.ttf)format("truetype");
+        font-display: swap
+    }
+    h2 {
+        font-family: safiro1,safiro Fallback;
+        user-select: none;
+       font-size: 50px;
+        margin-bottom: 0;
+        color: black;
+        font-weight: 800;
+
+       
+    }
+#when1{
+    position: fixed;
+    right: calc(-25vw + 140px);
+    top: calc(23vh + 100px);
+    transform: translateX(50%);
+    
+    transition: 1s;
+}
+
+#when1.show {
+    right: calc(20vw + 140px);
+    top: calc(23vh + 70px);
+}
+
