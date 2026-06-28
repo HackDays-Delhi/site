@@ -17,7 +17,8 @@ where.onclick = () => {
     prize1.classList.add("rig1");
     prize4.classList.add("rig1");
     indiagate.classList.add("anii");
-    wave.classList.add("wavenew")
+    wave.classList.add("wavenew");
+    timel.classList.remove("show");
 
 }
 
@@ -33,7 +34,8 @@ prizee.onclick = () => {
     prize1.classList.remove("rig1");
     prize4.classList.remove("rig1");
     indiagate.classList.remove("anii");
-    wave.classList.add("wavenew")
+    wave.classList.add("wavenew");
+    timel.classList.remove("show");
 }
 
 when.onclick = () => {
@@ -44,12 +46,14 @@ when.onclick = () => {
     prize4.classList.remove("rig1r");
     indiagate.classList.add("aniir");
     indiagate.classList.remove("anii");
+    timel.classList.add("show");
     prize2.classList.add("right");
     prize3.classList.add("right");
     prize1.classList.add("rig1");
     prize4.classList.add("rig1");
     indiagate.classList.add("anii");
     wave.classList.add("wavenew")
+    
 }
 
 
