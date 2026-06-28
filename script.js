@@ -35,6 +35,10 @@ where.onclick = () => {
     time1.classList.remove("show");
     when1.classList.remove("show");
     timo.classList.remove("show");
+    prize2.classList.remove("dis");
+    prize3.classList.remove("dis");
+    prize1.classList.remove("dis");
+    prize4.classList.remove("dis");
 
 }
 
@@ -50,6 +54,10 @@ prizee.onclick = () => {
     time1.classList.remove("show");
     when1.classList.remove("show");
     timo.classList.remove("show");
+    prize2.classList.remove("dis");
+    prize3.classList.remove("dis");
+    prize1.classList.remove("dis");
+    prize4.classList.remove("dis");
     }
 
 
@@ -65,16 +73,20 @@ when.onclick = () => {
     time1.classList.add("show");
     when1.classList.add("show");
     timo.classList.remove("show");
+    prize2.classList.remove("dis");
+    prize3.classList.remove("dis");
+    prize1.classList.remove("dis");
+    prize4.classList.remove("dis");
     
 }
 
 timeline.onclick = () => {
     wave.classList.remove("wavenew");
     indiagate.classList.remove("add");
-    prize2.classList.add("right");
-    prize3.classList.add("right");
-    prize1.classList.add("rig1");
-    prize4.classList.add("rig1");
+    prize2.classList.add("dis");
+    prize3.classList.add("dis");
+    prize1.classList.add("dis");
+    prize4.classList.add("dis");
     wave.classList.add("wavenew");
     timel.classList.remove("show");
     time1.classList.remove("show");

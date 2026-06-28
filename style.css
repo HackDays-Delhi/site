@@ -77,7 +77,7 @@ body {
 }
 
 .prize {
-    position: absolute;
+    position: fixed;
     width: 170px;
     display: inline-block;
     user-select: none;
@@ -320,5 +320,19 @@ button:hover {
 
 #timo.show {
     right: calc(20vw + 140px);
-    top: calc(23vh + 100px);
+    top: calc(22vh);
 }
+
+#prize2.dis {
+    right: calc(-25vw + 140px);
+}
+#prize3.dis {
+    right: calc(-25vw + 140px);
+}
+#prize1.dis {
+    right: calc(-25vw + 140px);
+}
+#prize4.dis {
+    right: calc(-25vw + 140px);
+}
+
