@@ -39,6 +39,7 @@ where.onclick = () => {
     prize3.classList.remove("dis");
     prize1.classList.remove("dis");
     prize4.classList.remove("dis");
+    cam.classList.remove("show");
 
 }
 
@@ -58,6 +59,7 @@ prizee.onclick = () => {
     prize3.classList.remove("dis");
     prize1.classList.remove("dis");
     prize4.classList.remove("dis");
+    cam.classList.remove("show");
     }
 
 
@@ -77,6 +79,7 @@ when.onclick = () => {
     prize3.classList.remove("dis");
     prize1.classList.remove("dis");
     prize4.classList.remove("dis");
+    cam.classList.remove("show");
     
 }
 
@@ -92,5 +95,6 @@ timeline.onclick = () => {
     time1.classList.remove("show");
     when1.classList.remove("show");
     timo.classList.add("show");
+    cam.classList.add("show");
     }
 

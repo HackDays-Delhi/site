@@ -320,7 +320,7 @@ button:hover {
 
 #timo.show {
     right: calc(20vw + 140px);
-    top: calc(22vh);
+    top: calc(7vh);
 }
 
 #prize2.dis {
@@ -336,3 +336,17 @@ button:hover {
     right: calc(-25vw + 140px);
 }
 
+#cam{
+    position: fixed;
+    right: calc(-25vw + 140px);
+    top: calc(23vh + 130px);
+    transform: translateX(50%);
+    width: 70px;
+    transition: 1s;
+}
+
+#cam.show {
+    right: calc(20vw + 230px);
+    top: calc(13vh);
+    rotate: -45deg;
+}
