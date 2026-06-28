@@ -1,16 +1,14 @@
 const prizes = document.querySelectorAll(".prize");
 const where = document.getElementById("where");
 const prize2 = document.getElementById("prize2");
+const prize3 = document.getElementById("prize3");
+const prize4 = document.getElementById("prize4");
 const indiagate = document.getElementById("indiagate");
 const wave = document.getElementById("wave")
 const when = document.getElementById("when")
 
 where.onclick = () => {
     wave.classList.remove("wavenew")
-    prize2.classList.remove("rightr");
-    prize3.classList.remove("rightr");
-    prize1.classList.remove("rig1r");
-    prize4.classList.remove("rig1r");
     indiagate.classList.add("add")
     prize2.classList.add("right");
     prize3.classList.add("right");
@@ -24,10 +22,6 @@ where.onclick = () => {
 
 prizee.onclick = () => {
     wave.classList.remove("wavenew")
-    prize2.classList.add("rightr");
-    prize3.classList.add("rightr");
-    prize1.classList.add("rig1r");
-    prize4.classList.add("rig1r");
     indiagate.classList.remove("add")
     prize2.classList.remove("right");
     prize3.classList.remove("right");
@@ -39,10 +33,6 @@ prizee.onclick = () => {
 
 when.onclick = () => {
     wave.classList.remove("wavenew")
-    prize2.classList.remove("rightr");
-    prize3.classList.remove("rightr");
-    prize1.classList.remove("rig1r");
-    prize4.classList.remove("rig1r");
     indiagate.classList.remove("add");
     timel.classList.add("show");
     prize2.classList.add("right");

@@ -83,6 +83,7 @@ body {
     user-select: none;
     touch-action: none;
     cursor: grab;
+    transition: 1s;
 }
 
 .prize:active {
@@ -96,10 +97,12 @@ body {
 #prize2 {
     top: 21vh;
     right: 220px;
+    transition: 1s;
 }
 #prize3 {
     top: 48vh;
     right: 220px;
+    transition: 1s;
 }
 #prize4 {
     top: 75vh;
@@ -155,70 +158,19 @@ button:hover {
 
 
 
-@keyframes rig {
-    from {
-        position: fixed;
-        left: 70vw;
-    }
-    to {
-        position: fixed;
-        left: 85vw;
-    }
+
+#prize2.right {
+    right: 2vw;
 }
-
-.right {
-    animation: rig 1s forwards;
+#prize3.right {
+    right: 2vw;
 }
-
-.rig1 {
-    animation: rig1 1s forwards;
+#prize1.rig1 {
+    right: 15vw
 }
-
-
-@keyframes rig1 {
-    from {
-        position: fixed;
-        left: 60vw;
-    }
-    to {
-        position: fixed;
-        left: 70vw;
-    }
+#prize4.rig1 {
+    right: 15vw
 }
-
-/* reverse */
-
-@keyframes rigr {
-    from {
-        position: fixed;
-        left: 85vw;
-    }
-    to {
-        position: fixed;
-        left: 70vw;
-    }
-}
-
-.rightr {
-    animation: rigr 1s forwards;
-}
-
-.rig1r {
-    animation: rig1r 1s forwards;
-}
-
-
-@keyframes rig1r {
-    from {
-        position: fixed;
-        left: 70vw;
-    }
-    to {
-        position: fixed;
-        left: 60vw;
-    }
-}
-
 
 
 #indiagate {
