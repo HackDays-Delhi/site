@@ -14,7 +14,10 @@ const day = diff / (1000 * 60 * 60 * 24);
 const days = Math.floor(day);
 const hour = (day - days) * 24
 const hours = Math.floor(hour)
-
+const min = (hour - hours) * 60
+const mins = Math.floor(min)
+const sec = (min - mins) * 60
+const secs = Math.floor(sec)
 where.onclick = () => {
     wave.classList.remove("wavenew");
     indiagate.classList.add("add");
