@@ -553,3 +553,43 @@ button:hover {
     height: 75vh;
     width: 44vw;
 }
+
+#venue {
+    background-color: rgb(238, 238, 238);
+    background-image: url("https://cdn.hackclub.com/019f23a2-c942-7275-b062-b4dc27bbbb1f/Untitled%20design%20(72).png");
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position:5px;
+}
+#spon1 img {
+    position: fixed;
+    top: 20vh;
+    right: 30vw;
+    width: 120px;
+    rotate: 3deg;
+    transition: 1s;
+}
+#spon2 img{
+    position: fixed;
+    top: 20vh;
+    right: 15vw;
+    width: 120px;
+    rotate: 3deg;
+    transition: 1s;
+}
+#spon3 img{
+    position: fixed;
+    top: 40vh;
+    right: 30vw;
+    width: 120px;
+    rotate: 3deg;
+    transition: 1s;
+}
+#spon4 img{
+    position: fixed;
+    top: 40vh;
+    right: 15vw;
+    width: 120px;
+    rotate: 3deg;
+    transition: 1s;
+}
