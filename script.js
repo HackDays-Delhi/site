@@ -40,6 +40,18 @@ where.onclick = () => {
     prize1.classList.remove("dis");
     prize4.classList.remove("dis");
     cam.classList.remove("show");
+    timo1.classList.remove("show");
+    timo2.classList.remove("show");
+    timo3.classList.remove("show");
+    timo4.classList.remove("show");
+    timo5.classList.remove("show");
+    timo6.classList.remove("show");
+    timo7.classList.remove("show");
+    timo8.classList.remove("show");
+    timo9.classList.remove("show");
+    timo10.classList.remove("show");
+    timo11.classList.remove("show");
+    timo12.classList.remove("show");
 
 }
 
@@ -60,6 +72,18 @@ prizee.onclick = () => {
     prize1.classList.remove("dis");
     prize4.classList.remove("dis");
     cam.classList.remove("show");
+    timo1.classList.remove("show");
+    timo2.classList.remove("show");
+    timo3.classList.remove("show");
+    timo4.classList.remove("show");
+    timo5.classList.remove("show");
+    timo6.classList.remove("show");
+    timo7.classList.remove("show");
+    timo8.classList.remove("show");
+    timo9.classList.remove("show");
+    timo10.classList.remove("show");
+    timo11.classList.remove("show");
+    timo12.classList.remove("show");
     }
 
 
@@ -80,6 +104,18 @@ when.onclick = () => {
     prize1.classList.remove("dis");
     prize4.classList.remove("dis");
     cam.classList.remove("show");
+    timo1.classList.remove("show");
+    timo2.classList.remove("show");
+    timo3.classList.remove("show");
+    timo4.classList.remove("show");
+    timo5.classList.remove("show");
+    timo6.classList.remove("show");
+    timo7.classList.remove("show");
+    timo8.classList.remove("show");
+    timo9.classList.remove("show");
+    timo10.classList.remove("show");
+    timo11.classList.remove("show");
+    timo12.classList.remove("show");
     
 }
 
@@ -95,6 +131,18 @@ timeline.onclick = () => {
     time1.classList.remove("show");
     when1.classList.remove("show");
     timo.classList.add("show");
+    timo1.classList.add("show");
+    timo2.classList.add("show");
+    timo3.classList.add("show");
+    timo4.classList.add("show");
+    timo5.classList.add("show");
+    timo6.classList.add("show");
+    timo7.classList.add("show");
+    timo8.classList.add("show");
+    timo9.classList.add("show");
+    timo10.classList.add("show");
+    timo11.classList.add("show");
+    timo12.classList.add("show");
     cam.classList.add("show");
     }
 

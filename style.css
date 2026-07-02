@@ -350,3 +350,159 @@ button:hover {
     top: calc(13vh);
     rotate: -45deg;
 }
+#timo1 {
+    position: fixed;
+    right: calc(-25vw + 140px);
+    top: calc(23vh + 100px);
+    transform: translateX(50%);
+    
+    transition: 1s;
+}
+#timo1.show {
+    right: calc(20vw + 140px);
+    top: calc(20vh);
+
+}
+#timo2 {
+    position: fixed;
+    right: calc(-25vw + 140px);
+    top: calc(23vh + 100px);
+    transform: translateX(50%);
+    
+    transition: 1s;
+}
+#timo2.show {
+    right: calc(20vw + 140px);
+    top: calc(20vh);
+
+}
+#timo3 {
+    position: fixed;
+    right: calc(-25vw + 140px);
+    top: calc(23vh + 100px);
+    transform: translateX(50%);
+    
+    transition: 1s;
+}
+#timo3.show {
+    right: calc(20vw + 140px);
+    top: calc(20vh);
+
+}
+#timo4 {
+    position: fixed;
+    right: calc(-25vw + 140px);
+    top: calc(23vh + 100px);
+    transform: translateX(50%);
+    
+    transition: 1s;
+}
+#timo4.show {
+    right: calc(20vw + 140px);
+    top: calc(20vh);
+
+}
+#timo5 {
+    position: fixed;
+    right: calc(-25vw + 140px);
+    top: calc(23vh + 100px);
+    transform: translateX(50%);
+    
+    transition: 1s;
+}
+#timo5.show {
+    right: calc(20vw + 140px);
+    top: calc(20vh);
+
+}
+#timo6 {
+    position: fixed;
+    right: calc(-25vw + 140px);
+    top: calc(23vh + 100px);
+    transform: translateX(50%);
+    
+    transition: 1s;
+}
+#timo6.show {
+    right: calc(20vw + 140px);
+    top: calc(20vh);
+
+}
+#timo7 {
+    position: fixed;
+    right: calc(-25vw + 140px);
+    top: calc(23vh + 100px);
+    transform: translateX(50%);
+    
+    transition: 1s;
+}
+#timo7.show {
+    right: calc(20vw + 140px);
+    top: calc(20vh);
+
+}
+#timo8 {
+    position: fixed;
+    right: calc(-25vw + 140px);
+    top: calc(23vh + 100px);
+    transform: translateX(50%);
+    
+    transition: 1s;
+}
+#timo8.show {
+    right: calc(20vw + 140px);
+    top: calc(20vh);
+
+}
+#timo9 {
+    position: fixed;
+    right: calc(-25vw + 140px);
+    top: calc(23vh + 100px);
+    transform: translateX(50%);
+    
+    transition: 1s;
+}
+#timo9.show {
+    right: calc(20vw + 140px);
+    top: calc(20vh);
+
+}
+#timo10 {
+    position: fixed;
+    right: calc(-25vw + 140px);
+    top: calc(23vh + 100px);
+    transform: translateX(50%);
+    
+    transition: 1s;
+}
+#timo10.show {
+    right: calc(20vw + 140px);
+    top: calc(20vh);
+
+}
+#timo11 {
+    position: fixed;
+    right: calc(-25vw + 140px);
+    top: calc(23vh + 100px);
+    transform: translateX(50%);
+    
+    transition: 1s;
+}
+#timo11.show {
+    right: calc(20vw + 140px);
+    top: calc(20vh);
+
+}
+#timo12 {
+    position: fixed;
+    right: calc(-25vw + 140px);
+    top: calc(23vh + 100px);
+    transform: translateX(50%);
+    
+    transition: 1s;
+}
+#timo12.show {
+    right: calc(20vw + 140px);
+    top: calc(20vh);
+
+}
