@@ -561,35 +561,72 @@ button:hover {
     background-repeat: no-repeat;
     background-position:5px;
 }
+#spon1{
+    position: fixed;
+    top: 10vh;
+    right: 30vw;
+    rotate: 3deg;
+    transition: 1s;
+}
+
 #spon1 img {
-    position: fixed;
+    width: 120px;
+}
+#spon2 img {
+    width: 120px;
+}
+
+#spon3 img {
+    width: 120px;
+}
+
+#spon4 img {
+    width: 120px;
+}
+
+
+
+#spon1.show {
     top: 20vh;
     right: 30vw;
-    width: 120px;
+}
+
+#spon2{
+    position: fixed;
+    top: 10vh;
+    right: 13vw;
     rotate: 3deg;
     transition: 1s;
 }
-#spon2 img{
-    position: fixed;
+
+#spon2.show{
     top: 20vh;
-    right: 15vw;
-    width: 120px;
+    right: 13vw;
+}
+
+#spon3{
+    position: fixed;
+    top: 10vh;
+    right: 30vw;
     rotate: 3deg;
     transition: 1s;
 }
-#spon3 img{
-    position: fixed;
+
+#spon3.show{
     top: 40vh;
     right: 30vw;
-    width: 120px;
-    rotate: 3deg;
-    transition: 1s;
 }
-#spon4 img{
+
+#spon4{
     position: fixed;
-    top: 40vh;
-    right: 15vw;
-    width: 120px;
+    top: 10vh;
+    right: 13vw;
     rotate: 3deg;
     transition: 1s;
 }
+
+#spon4.show{
+    top: 40vh;
+    right: 13vw; 
+}
+
