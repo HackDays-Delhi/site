@@ -337,18 +337,28 @@ button:hover {
 }
 
 #cam{
-    position: fixed;
-    right: calc(-30vw + 230px);
+    position: absolute;
+    left: calc(130vw + 230px);
     top: calc(13vh);
-    transform: translateX(50%);
-    width: 70px;
+    width: 140px;
     transition: 1s;
+    rotate: -45deg;
 }
 
 #cam.show {
-    right: calc(15vw + 230px);
-    top: calc(13vh);
-    rotate: -45deg;
+    left: 7%;
+    top: 3%;
+    rotate: -40deg;
+    animation: ribbon 2s ease-in-out infinite alternate;
+}
+@keyframes ribbon {
+    0% {
+        rotate: -40deg;
+        
+    }
+    100% {
+        rotate: -50deg;
+    }
 }
 #timo1 {
     position: fixed;
@@ -506,23 +516,41 @@ button:hover {
     top: calc(75vh);
 
 }
-
+#timo1,
+#timo2,
+#timo3,
+#timo4,
+#timo5,
+#timo6,
+#timo7,
+#timo8,
+#timo9,
+#timo10,
+#timo11,
+#timo12 {
+    font-size: 20px;
+    font-weight: 650;
+    rotate: 1deg;
+}
 
 #container{
     position: fixed;
     top: 10vh;
     right: -5vh;
     height: 75vh;
-    width: 0vw;
+    width:0vw;
     transition: 1s;
-    background-color: white;
+    background-image: url("https://cdn.hackclub.com/019f2292-813f-78fe-8e5d-b7bab7f3028d/Untitled%20design%20(66).png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
     border-radius: 30px;
 }
 
 #container.show{
     
-    right: 13vh;
+    right: 8vh;
     height: 75vh;
-    width: 38vw;
-    background-color: rgba(214, 240, 255, 0.911);
+    width: 44vw;
 }
+rgba(214, 240, 255, 0.911);
