@@ -319,7 +319,7 @@ button:hover {
 }
 
 #timo.show {
-    right: calc(20vw + 140px);
+    right: calc(15vw + 140px);
     top: calc(7vh);
 }
 
@@ -346,163 +346,163 @@ button:hover {
 }
 
 #cam.show {
-    right: calc(20vw + 230px);
+    right: calc(15vw + 230px);
     top: calc(13vh);
     rotate: -45deg;
 }
 #timo1 {
     position: fixed;
-    right: calc(-25vw + 140px);
+    right: calc(-40vw + 140px);
     top: calc(23vh + 100px);
     transform: translateX(50%);
     
     transition: 1s;
 }
 #timo1.show {
-    right: calc(20vw + 140px);
+    right: calc(15vw + 140px);
     top: calc(20vh);
 
 }
 #timo2 {
     position: fixed;
-    right: calc(-25vw + 140px);
+    right: calc(-40vw + 140px);
     top: calc(23vh + 100px);
     transform: translateX(50%);
     
     transition: 1s;
 }
 #timo2.show {
-    right: calc(20vw + 140px);
-    top: calc(20vh);
+    right: calc(15vw + 140px);
+    top: calc(25vh);
 
 }
 #timo3 {
     position: fixed;
-    right: calc(-25vw + 140px);
+    right: calc(-40vw + 140px);
     top: calc(23vh + 100px);
     transform: translateX(50%);
     
     transition: 1s;
 }
 #timo3.show {
-    right: calc(20vw + 140px);
-    top: calc(20vh);
+    right: calc(15vw + 140px);
+    top: calc(30vh);
 
 }
 #timo4 {
     position: fixed;
-    right: calc(-25vw + 140px);
+    right: calc(-40vw + 140px);
     top: calc(23vh + 100px);
     transform: translateX(50%);
     
     transition: 1s;
 }
 #timo4.show {
-    right: calc(20vw + 140px);
-    top: calc(20vh);
+    right: calc(15vw + 140px);
+    top: calc(35vh);
 
 }
 #timo5 {
     position: fixed;
-    right: calc(-25vw + 140px);
+    right: calc(-40vw + 140px);
     top: calc(23vh + 100px);
     transform: translateX(50%);
     
     transition: 1s;
 }
 #timo5.show {
-    right: calc(20vw + 140px);
-    top: calc(20vh);
+    right: calc(15vw + 140px);
+    top: calc(40vh);
 
 }
 #timo6 {
     position: fixed;
-    right: calc(-25vw + 140px);
+    right: calc(-40vw + 140px);
     top: calc(23vh + 100px);
     transform: translateX(50%);
     
     transition: 1s;
 }
 #timo6.show {
-    right: calc(20vw + 140px);
-    top: calc(20vh);
+    right: calc(15vw + 140px);
+    top: calc(45vh);
 
 }
 #timo7 {
     position: fixed;
-    right: calc(-25vw + 140px);
+    right: calc(-40vw + 140px);
     top: calc(23vh + 100px);
     transform: translateX(50%);
     
     transition: 1s;
 }
 #timo7.show {
-    right: calc(20vw + 140px);
-    top: calc(20vh);
+    right: calc(15vw + 140px);
+    top: calc(50vh);
 
 }
 #timo8 {
     position: fixed;
-    right: calc(-25vw + 140px);
+    right: calc(-40vw + 140px);
     top: calc(23vh + 100px);
     transform: translateX(50%);
     
     transition: 1s;
 }
 #timo8.show {
-    right: calc(20vw + 140px);
-    top: calc(20vh);
+    right: calc(15vw + 140px);
+    top: calc(55vh);
 
 }
 #timo9 {
     position: fixed;
-    right: calc(-25vw + 140px);
+    right: calc(-40vw + 140px);
     top: calc(23vh + 100px);
     transform: translateX(50%);
     
     transition: 1s;
 }
 #timo9.show {
-    right: calc(20vw + 140px);
-    top: calc(20vh);
+    right: calc(15vw + 140px);
+    top: calc(60vh);
 
 }
 #timo10 {
     position: fixed;
-    right: calc(-25vw + 140px);
+    right: calc(-40vw + 140px);
     top: calc(23vh + 100px);
     transform: translateX(50%);
     
     transition: 1s;
 }
 #timo10.show {
-    right: calc(20vw + 140px);
-    top: calc(20vh);
+    right: calc(15vw + 140px);
+    top: calc(65vh);
 
 }
 #timo11 {
     position: fixed;
-    right: calc(-25vw + 140px);
+    right: calc(-40vw + 140px);
     top: calc(23vh + 100px);
     transform: translateX(50%);
     
     transition: 1s;
 }
 #timo11.show {
-    right: calc(20vw + 140px);
-    top: calc(20vh);
+    right: calc(15vw + 140px);
+    top: calc(70vh);
 
 }
 #timo12 {
     position: fixed;
-    right: calc(-25vw + 140px);
+    right: calc(-40vw + 140px);
     top: calc(23vh + 100px);
     transform: translateX(50%);
     
     transition: 1s;
 }
 #timo12.show {
-    right: calc(20vw + 140px);
-    top: calc(20vh);
+    right: calc(15vw + 140px);
+    top: calc(75vh);
 
 }
