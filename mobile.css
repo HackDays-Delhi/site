@@ -1,0 +1,196 @@
+@font-face {
+    font-family: safiro;
+    src: url(assets/safiro-medium-webfont.ttf) format("truetype");
+    font-display: swap;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: safiro, sans-serif;
+    background-color: white;
+    color: black;
+    overflow-x: hidden;
+}
+
+#mlh-trust-badge {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    width: 60px;
+    z-index: 100;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+section.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 30px;
+    position: relative;
+    display: inline-block;
+}
+
+h2::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 10%;
+    width: 80%;
+    height: 4px;
+    background: #000;
+    border-radius: 2px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Hero Section */
+#hero {
+    padding-top: 60px;
+}
+
+.logo-container {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+#logo {
+    width: 80vw;
+    max-width: 400px;
+}
+
+#rocket {
+    width: 50px;
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    animation: move 3s infinite;
+}
+
+@keyframes move {
+    0%, 100% { transform: translate(0, 0) rotate(27deg); }
+    50% { transform: translate(10px, 10px) rotate(27deg); }
+}
+
+/* Countdown */
+#countdown-container {
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+}
+
+#countdown-bg {
+    width: 100%;
+}
+
+#countdown-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-45%, -55%);
+    width: 80%;
+}
+
+#time-label {
+    font-size: 14px;
+    margin: 0;
+}
+
+#timer {
+    font-size: 22px;
+    margin: 5px 0 0 0;
+    font-weight: 900;
+}
+
+/* Prizes */
+.prize-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
+
+.prize-card {
+    background: #fff;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.prize-img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+/* Venue */
+#indiagate {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+/* Timeline */
+.timeline-container {
+    position: relative;
+    background-image: url("https://cdn.hackclub.com/019f22ae-9ea6-773d-b429-65770937f6f3/Untitled%20design%20(68).png");
+    background-size: cover;
+    background-position: center;
+    padding: 40px 20px;
+    border-radius: 20px;
+    color: black;
+}
+
+#ribbon {
+    width: 80px;
+    position: absolute;
+    top: -20px;
+    left: -10px;
+    transform: rotate(-40deg);
+    animation: ribbon 2s ease-in-out infinite alternate;
+}
+
+@keyframes ribbon {
+    from { transform: rotate(-40deg); }
+    to { transform: rotate(-50deg); }
+}
+
+.timeline-list p {
+    font-size: 16px;
+    margin: 10px 0;
+    text-align: left;
+}
+
+/* Sponsors */
+.sponsor-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+}
+
+.sponsor-grid img {
+    width: 100%;
+    max-width: 140px;
+    justify-self: center;
+    filter: drop-shadow(0 5px 10px rgba(0,0,0,0.1));
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    background: #f9f9f9;
+}
